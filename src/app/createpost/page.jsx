@@ -4,12 +4,12 @@ import { redirect } from "next/navigation";
 import axios from 'axios'
 const CreatePost = () => {
     const createPost = async (formData) => {
-        "use server";
-        const title = formData.get("title");
-        const body = formData.get("body");
-        const resopnse = axios.post('http://localhost:3000/api/post', { title, body })
-        revalidatePath("/blog")
-        redirect('/blog')
+        // "use server";
+        // const title = formData.get("title");
+        // const body = formData.get("body");
+        // const resopnse = axios.post('http://localhost:3000/api/post', { title, body })
+        // revalidatePath("/blog")
+        // redirect('/blog')
     }
     return (
         <form action={createPost}>

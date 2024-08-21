@@ -4,7 +4,8 @@ import BlogCard from '@/components/BlogCard/BlogCard'
 import axios from 'axios'
 const Blog = async () => {
 
-    const response = await axios.get('http://localhost:3000/api/post')
+    // const response = await axios.get('http://localhost:3000/api/post')
+    const response = await axios.get('https://jsonplaceholder.typicode.com/posts')
     console.log(response)
     const post = response.data
 

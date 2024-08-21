@@ -9,6 +9,7 @@ const Post = async ({ params }) => {
     const paras = parseInt(params.id)
     const id = Number(params.id)
     const router = useRouter()
+
     // const mongoClient = new MongoClient("mongodb://localhost:27017/Nextjs");
     // const client = await mongoClient.connect();
     // const db = client.db();
