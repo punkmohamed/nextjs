@@ -3,16 +3,16 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import axios from 'axios'
 const CreatePost = () => {
-    const createPost = async (formData) => {
-        // "use server";
-        // const title = formData.get("title");
-        // const body = formData.get("body");
-        // const resopnse = axios.post('http://localhost:3000/api/post', { title, body })
-        // revalidatePath("/blog")
-        // redirect('/blog')
-    }
+    // const createPost = async (formData) => {
+    // "use server";
+    // const title = formData.get("title");
+    // const body = formData.get("body");
+    // const resopnse = axios.post('http://localhost:3000/api/post', { title, body })
+    // revalidatePath("/blog")
+    // redirect('/blog')
+    // }
     return (
-        <form action={createPost}>
+        <form >
             <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
                 <div className="relative py-3 sm:max-w-xl sm:mx-auto">
                     <div
